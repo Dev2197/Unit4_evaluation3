@@ -5,7 +5,7 @@ const userSchema = new mongoose.Schema({
     lastName : {type:String, required:false},
     age : {type:String, required:true},
     email : {type:String, required:true},
-    profileImages : {type:String, required:true},
+    profileImage : {type:String, required:true},
 
 },{
     versionKey:false,
